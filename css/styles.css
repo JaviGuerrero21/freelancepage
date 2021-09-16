@@ -35,6 +35,12 @@ body{
     background-color: var(--secundario);
 }
 
-.nav-principal{
-    
+.nav-principal {
+   padding: 1rem;
 }
+
+.nav-principal a{
+   color: var(--blanco);
+   text-decoration: none;
+}
+

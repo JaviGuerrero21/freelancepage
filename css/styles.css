@@ -2,6 +2,10 @@
     --blanco: #ffffff;
     --oscuro: #212121;
     --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+
+    --fuente-principal: 3.8rem;
 }
 
 html {
@@ -9,15 +13,28 @@ html {
 }
 body{
     font-size: 16px; /* 1rem = 10px */
+    font-family: 'Krub', sans-serif;
 }
 
 .tituloPagina {
     text-align: center;
-    font-size: 3.8rem;
-    color: var(--primario);
+    font-size: var(--fuente-principal);
+    font-family: 'Krub', sans-serif;
 }
 
 .tituloPagina span{
     font-size: 2rem; 
 }
 
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-background{
+    background-color: var(--secundario);
+}
+
+.nav-principal {
+    
+}

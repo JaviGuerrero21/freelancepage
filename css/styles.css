@@ -9,6 +9,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  scroll-snap-type: y mandatory;
 }
 *,
 *:before,
@@ -73,7 +74,13 @@ h3 {
     font-family: "Krub", sans-serif;
 }
 
-
+/*Scroll snap*/
+.servicios,
+.nav-principal,
+.formulario{
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
 
 .tituloPagina span {
   font-size: 2rem;
